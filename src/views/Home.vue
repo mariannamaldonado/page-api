@@ -11,22 +11,22 @@
     <div class="carousel-item active">
       <img src="../assets/photo1.jpg" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+         <h1>Lo mejor de <br>Madrid</h1>
+        <p>¡No te vayas a casa! Cada día en Madrid hay una propuesta perfecta para ti..</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="../assets/photo1.jpg" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h1>Lo mejor de <br>Madrid</h1>
+        <p>¡No te vayas a casa! Cada día en Madrid hay una propuesta perfecta para ti..</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="../assets/photo1.jpg" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
-        <h1>Welcome To <br>Workland Factory</h1>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h1>Lo mejor de <br>Madrid</h1>
+        <p>¡No te vayas a casa! Cada día en Madrid hay una propuesta perfecta para ti..</p>
       </div>
     </div>
   </div>
@@ -44,12 +44,12 @@
         <div class="about" id="about">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <div class="img"><img src="../assets/photo3.jpg"></div>
+                    <div class="img"><img src="../assets/principal.jpg"></div>
                 </div>
                 <div class="col-lg-6 col-12 text-right">
                     <div class="about-child">
-                        <h2 class="text-uppercase"><span>abo</span>ut us</h2>
-                        <p>Get full range of premium Industrial services for your business</p>
+                        <h2 class="text-uppercase"></h2>
+                        <p>¡No te vayas a casa! Cada día en Madrid hay una propuesta perfecta para ti..</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
                         <a href="#"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Leer más</span></a>
                     </div>
@@ -64,27 +64,27 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
-                                <img src="../assets/photo3.jpg">
+                                <img src="../assets/museo1.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Museos</h4></router-link> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                                <p>Museos imprescindibles en Madrid <br/><br/> Madrid puede presumir de tener algunos de los museos más importantes del mundo</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
-                                <img src="../assets/photo3.jpg">
+                                <img src="../assets/almendros.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Parques</h4></router-link> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                                <p>La primavera ha llegado prematura. <br/> En el número 527 de la madrileña calle de Alcalá uno puede escaparse por unas horas de la gran ciudad y disfrutar de este espectáculo natural que anticipa la primavera. <br/> Hay que estar atentos con las fechas para no perderse este efímero acontecimiento.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
-                                <img src="../assets/photo3.jpg">
+                                <img src="../assets/planes.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Eventos</h4></router-link> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                                <p>No te pierdas ninguno de los planes para hacer en Madrid</p>
                             </div>
                         </div>
                     </div>
-                    <a href="#"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Leer más</span></a>
+                    <a href="/Test"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Leer más</span></a>
                 </div>
             </div>
         </div>
@@ -98,25 +98,25 @@
                             <div>
                                 <a href="#"><img src="../assets/photo2.jpg">
                                      <div class="yellow-overlay d-flex align-items-center justify-content-center">
-                                        <p>Auto engineering</p>
+                                        <p>Cultura</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
-                                <a href="#"><img src="../assets/photo1.jpg">
+                                <a href="#"><img src="../assets/photo2.jpg">
                                      <div class="yellow-overlay d-flex align-items-center justify-content-center">
-                                        <p>Auto engineering</p>
+                                        <p>Viajes</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
-                                <a href="#"><img src="../assets/photo3.jpg">
+                                <a href="#"><img src="../assets/photo2.jpg">
                                     <div class="yellow-overlay d-flex align-items-center justify-content-center">
-                                        <p>Auto engineering</p>
+                                        <p>Barrios Trendy</p>
                                     </div>
                                 </a>
                             </div>
@@ -142,9 +142,12 @@
         </div>
         
                
-                <div class="copyright">
-                    <p>© 2018 All Rights Reserved. Free Website Templates</p>
-                </div>
+                <div class="attribution">
+      Proyecto API 
+      <a href="" target="_blank"
+        >Fullstack</a
+      >. hecho por: <a href="#">Marianna Maldonado</a>.
+    </div>
            
          
 </template>

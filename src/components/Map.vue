@@ -7,7 +7,7 @@
 
 <script>
 import L from "leaflet"
-import { onMounted} from 'vue'
+import { onMounted } from 'vue'
 
 export default {
   name: 'Map',

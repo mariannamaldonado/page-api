@@ -2,6 +2,7 @@
   <div class="prueba">
 
     <TestWeather/>
+    <Map />
   </div>
 </template>
 

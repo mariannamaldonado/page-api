@@ -11,16 +11,16 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/">Home</router-link> 
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <router-link class="nav-link" to="/about">About</router-link> 
-        </li>
+        </li> -->
 
         <li class="nav-item">
-          <router-link class="nav-link" to="/weather">Weather</router-link> 
+          <router-link class="nav-link" to="/weather">Tiempo</router-link> 
         </li>
 
          <li class="nav-item">
-          <router-link class="nav-link" to="/test">Test Api</router-link> 
+          <router-link class="nav-link" to="/test">¿Qué hacer?</router-link> 
         </li>
         
         <!-- <li class="nav-item dropdown">

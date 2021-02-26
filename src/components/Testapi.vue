@@ -29,6 +29,9 @@
       <p style="text-align: left">
         <span>Horario: </span>{{informacion.datos.organization['schedule']}} <br>
       </p>
+        <p style="text-align: left">
+        <span>Ubicacion: </span>{{informacion.datos['location']}} <br>
+      </p>
       <p style="text-align: left">
         <span >Descripción: </span>{{informacion.datos.organization['organization-desc']}} <br>
       </p>

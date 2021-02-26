@@ -29,13 +29,11 @@
         <span style="text-align: left">Dirección: </span>{{informacion.datos['address']['street-address']}} <br>
       </p>
       <p style="text-align: left">
-        <span>Horario: </span>{{informacion.datos.organization['schedule']}} <br>
+        <span>Localizacion: latitud:</span>{{informacion.datos['location'].latitude}} <br> <span>Longitud:</span>{{informacion.datos['location'].latitude}} <br>
       </p>
-       <p style="text-align: left">
-        <span>Localización: </span>{{informacion.datos.organization['location']}} <br>
-      </p>
+      
       <p style="text-align: left">
-        <span >Accesibilidad: </span>{{informacion.datos.organization['organization-desc']}} <br>
+        <span >Descripción: </span>{{informacion.datos.organization['organization-desc']}} <br>
       </p>
       <p style="text-align: left">
         <span>Servicios: </span>{{informacion.datos.organization['services']}}<br>
@@ -59,7 +57,7 @@ export default {
     let informacion =reactive([])
 
     //  // API MERCADILLOS
-    fetch("https://datos.madrid.es/egob/catalogo/202105-0-mercadillos.json")
+    fetch("https://datos.madrid.es/egob/catalogo/200761-0-parques-jardines.json")
 
       .then((res) => {
         return res.json();

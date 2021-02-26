@@ -66,21 +66,21 @@
                             <div>
                                 <img src="../assets/museo1.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Museos</h4></router-link> 
-                                <p>Museos imprescindibles en Madrid <br/><br/> Madrid puede presumir de tener algunos de los museos más importantes del mundo</p>
+                                <p><b>Museos imprescindibles en Madrid</b> <br/><br/> Madrid puede presumir de tener algunos de los museos más importantes del mundo</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
                                 <img src="../assets/almendros.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Parques</h4></router-link> 
-                                <p>La primavera ha llegado prematura. <br/> En el número 527 de la madrileña calle de Alcalá uno puede escaparse por unas horas de la gran ciudad y disfrutar de este espectáculo natural que anticipa la primavera. <br/> Hay que estar atentos con las fechas para no perderse este efímero acontecimiento.</p>
+                                <p><b>La primavera ha llegado prematura.</b> <br/> En el número 527 de la madrileña calle de Alcalá uno puede escaparse por unas horas de la gran ciudad y disfrutar de este espectáculo natural que anticipa la primavera. <br/> Hay que estar atentos con las fechas para no perderse este efímero acontecimiento.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div>
                                 <img src="../assets/planes.jpg">
                                 <router-link class="nav-link" to="/test"><h4>Eventos</h4></router-link> 
-                                <p>No te pierdas ninguno de los planes para hacer en Madrid</p>
+                                <p><b>No te pierdas ninguno de los planes para hacer en Madrid</b></p>
                             </div>
                         </div>
                     </div>
@@ -129,6 +129,8 @@
         <div class="contact" id="contact">
             <div class="container">
                 <h2 class="text-capitalize"><span>Mapa</span></h2>
+                <MapJl/>
+                <Map/>
               </div>
             <div class="contact-child">
                 <div class="container">
@@ -156,11 +158,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import Map from '@/components/Map.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    Map
   }
 }
 </script>

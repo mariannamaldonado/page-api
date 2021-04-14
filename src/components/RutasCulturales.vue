@@ -16,7 +16,7 @@
      </div>
 
       <div class="clearfix">
-      <img src="../assets/almendros.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="">
+      <img src="../assets/rutas.webp" class="col-md-6 float-md-end mb-3 ms-md-3" alt="">
     <div class="informacion" v-if="informacion.datos">
       <h4 class="d-flex justify-content-center text-align-center"> {{informacion.datos.destino_denominacion}}:</h4>
       <p style="text-align: left">

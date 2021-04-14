@@ -23,7 +23,7 @@ setup(){
     let marker
 
     onMounted(()=>{
-        mymap=L.map(mapid).setView([40.30505797514754, -3.931373193814625], 18)
+        mymap=L.map(mapid).setView([40.4165000, -3.7025600], 18)
 
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
@@ -35,7 +35,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
       console.log(e)
     }
     function markerMuseoPrado(){
-      marker=L.marker([40.4137818, 40.44245748722783]).addTo(mymap)
+      marker=L.marker([40,413860000, -3,692255000]).addTo(mymap)
     }
     function circleParque(){
       L.circle([40.431900, -3.656881], {

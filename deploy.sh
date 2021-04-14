@@ -14,7 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/mariannamaldonado/page-api.git master:gh-pages
+git push -f https://mariannamaldonado.github.io/page-api/ master:gh-pages
 
 cd -
 
